@@ -1,20 +1,24 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect'
-import {Cursor} from 'react-simple-typewriter'
+import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import BackgroundCircles from './BackgroundCircles'
 const Hero = () => {
+    const [text] = useTypewriter({
+        words: ["Hi, My Name's Ahmet Palavan.", 'I-Love-Coffee.js', "<ButLovesToCodeMore/>"],
+        loop: true,
+        delaySpeed:2000
+    })
     return (
-        <div>
-            
-        <Typewriter
-            options={{
-            strings: ["Hi, My Name's Ahmet.", 'I-Love-Coffee.js',"<ButLovesToCodeMore/>"],
-            autoStart: true,
-            loop: true,
-            delay:75,
-            
-            }}
-            />
+        <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+            <BackgroundCircles/>
+            <img className='relative rounded-full w-32 h-32 mx-auto object-cover' src="ahmetfoto.jpg" alt="" />
+            <div>
+                <h1>
+                    <span>{text}</span>
+                    <Cursor cursorColor='#008000'/>
+                </h1>
+            </div>
         </div>
+        
     )
 }
 

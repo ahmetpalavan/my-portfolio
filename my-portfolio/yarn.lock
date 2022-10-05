@@ -1686,10 +1686,10 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-simple-typewriter@^4.0.4":
-  "integrity" "sha512-trDK9Veo9LF+rukI2oDsXBLN391MZcxmfmRyR7yanCrP4+YA3ItzXo81F0bxzpC38gzFdOyabir315QGSZPcHw=="
-  "resolved" "https://registry.npmjs.org/react-simple-typewriter/-/react-simple-typewriter-4.0.4.tgz"
-  "version" "4.0.4"
+"react-simple-typewriter@^4.0.5":
+  "integrity" "sha512-2CmVpD1kTifRE8gixr2z+1aYS136ZbAC/UATNzvkzl4tSiThT/ATXH4rOGVwWLTlOWCVnSewObXo/kJlV2HMxw=="
+  "resolved" "https://registry.npmjs.org/react-simple-typewriter/-/react-simple-typewriter-4.0.5.tgz"
+  "version" "4.0.5"
 
 "react-social-icons@^5.15.0":
   "integrity" "sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ=="
