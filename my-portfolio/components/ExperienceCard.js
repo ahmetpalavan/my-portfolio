@@ -12,7 +12,7 @@ const ExperienceCard = () => {
             whileInView={{opacity:1,y:0}}
             viewport={{once:true}}
             src="https://media-exp1.licdn.com/dms/image/C4D0BAQGn45YCZjokPg/company-logo_200_200/0/1581767690753?e=2147483647&v=beta&t=BvscqgKipPgyomPOj6migOv-OR8z4syP3HkJmk0jCwo" alt="" 
-            className='w-32 h-32 rounded-full object-cover object-center xl:w-[200px] xl:h-[200px]'
+            className='w-32 h-32  rounded-full object-cover object-center xl:w-[200px] xl:h-[200px]'
         />
         <div className='px-0 md:px-10'>
             <h4 className='text-4xl font-light'>Web Developer</h4>
@@ -29,11 +29,11 @@ const ExperienceCard = () => {
                 </div>
                 <p className='uppercase text-gray-300 py-5'>Started work... -Ended work</p>
                 <ul className='list-disc space-y-4 ml-5 text-lg'>
-                    <li>SummarySummarySummaryy</li>
-                    <li>skndasndasdnaskn</li>
-                    <li>asdasdasdmasdmas</li>
-                    <li>aasdasdadad</li>
-                    <li>SummarySummarySummarySummarySummarySummarySummary</li>
+                    <li>SummarySummarySummaryy asödilşasdöa </li>
+                    <li>skndasndasdnaskn asjdnajsdnsa</li>
+                    <li>asdasdasdmasdmas dkdnaksdnaskl</li>
+                    <li>aasdasdadad sdmkasmksam</li>
+                    <li>sjabdaçsjbdças dalsjdlasdlasdn</li>
                 </ul>
             </div>
         </article>
