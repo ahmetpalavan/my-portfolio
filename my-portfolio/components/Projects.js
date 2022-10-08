@@ -10,7 +10,7 @@ const Projects = () => {
         transition={{duration:1.5}}
         className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row 
         max-w-full justify-evenly mx-auto items-center z-20'>
-            <h3 className='top-24 uppercase tracking-[20px] absolute text-gray-500 text-2xl hidden'> 
+            <h3 className='top-24 uppercase tracking-[20px] absolute text-gray-500 text-2xl'> 
                 Projects
             </h3>
             <div className='relative snap-mandatory w-full flex overflow-x-scroll overflow-y-hidden snap-x z-20'>
