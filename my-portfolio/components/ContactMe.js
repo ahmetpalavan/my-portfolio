@@ -4,7 +4,10 @@ import {useForm} from 'react-hook-form'
 
 const ContactMe = () => {
     const { register, handleSubmit } = useForm();
-    const onSubmit = formData => console.log(formData);
+    const onSubmit = formData => {
+        window.location.href = `mailto:ahmetpalavann@gmail?suject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}
+        (${formData.email})`
+    };
     return (
         <div className='h-screen flex relative flex-col md:text-left text-center md:flex-row max-w-7xl
         px-10 justify-evenly mx-auto items-center'>
