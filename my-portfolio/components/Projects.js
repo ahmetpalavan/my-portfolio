@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion, } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
     const projects = [1,2,3,4,5];
@@ -22,7 +22,7 @@ const Projects = () => {
                         transition={{duration:1.2}}
                         whileInView={{opacity:1,y:0}}
                         viewport={{once:true}}
-                        src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png" alt="" />
+                        src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"/>
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-4xl font-semibold text-center'>
                                 <span className='underline decoration-[#4B5320]/50'>
